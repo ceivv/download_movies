@@ -31,12 +31,12 @@ while True:
 		break
 	print("No such a movie :( try again !")
 
-# handling single or multiple serach results
+# handling single or multiple search results
 if len(moviesInfo) > 1 :
 	for y in range(len(moviesInfo)):
 		print(str(y)+" : "+ moviesInfo[y].text)
 
-	#handling wrong or non mumerical input
+	#handling wrong or non numerical input
 	while(1):
 		choice = int(input("choose movie: "))
 		if choice in range(len(moviesInfo)):
