@@ -63,7 +63,7 @@ movies = soup.find_all("a", {"class": "hoverable activable"})
 
 # getting movies links for each movie
 for movie in movies:
-    if "upbam" in movie['href']:
+    if "upbaam" in movie['href']:
         moviesLinks.append(movie['href'])
 
 # listing movie links according to quality
