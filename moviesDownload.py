@@ -7,9 +7,11 @@ import requests
 
 try:
     from bs4 import BeautifulSoup
+    import requests
 except ImportError:
     print("Trying to Install required module: BeautifulSoup\n")
     os.system('python -m pip install BeautifulSoup4')
+    os.system('python -m pip install requests')
 
 import webbrowser
 
