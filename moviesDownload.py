@@ -12,8 +12,11 @@ except ImportError:
     print("Trying to Install required module: BeautifulSoup\n")
     os.system('python -m pip install BeautifulSoup4')
     os.system('python -m pip install requests')
+    import requests 
+    from bs4 import BeautifulSoup
 
 import webbrowser
+
 
 moviesInfo = []
 moviesLinks = []
