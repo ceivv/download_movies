@@ -3,7 +3,6 @@
 # Ceiv 21/05/2022
 # enjoy :)
 import os
-import requests
 
 try:
     from bs4 import BeautifulSoup
